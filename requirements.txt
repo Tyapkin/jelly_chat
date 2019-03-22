@@ -1,0 +1,6 @@
+Django==2.1.7
+django-templated-mail==1.1.1
+djangorestframework==3.9.2
+djoser==1.5.0
+mysqlclient==1.4.2.post1
+pytz==2018.9
