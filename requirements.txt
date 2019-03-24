@@ -1,6 +1,8 @@
 Django==2.1.7
+django-cors-headers==2.5.2
 django-templated-mail==1.1.1
 djangorestframework==3.9.2
 djoser==1.5.0
 mysqlclient==1.4.2.post1
 pytz==2018.9
+six==1.12.0
