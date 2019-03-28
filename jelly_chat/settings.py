@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # custom apps
+    'api.apps.ApiConfig',
+
     # libraries
     'rest_framework',
     'rest_framework.authtoken',
