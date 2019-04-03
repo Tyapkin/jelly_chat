@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',
-    'corsheaders'
+    'corsheaders',
+    'notifications'
 ]
 
 MIDDLEWARE = [
@@ -146,3 +147,10 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+CELERY_TASK_ALWAYS_EAGER = True
+
+NOTIFICATION_CHANNELS = {
+    'websocket': 'api.producer.Producer',
+    'console': 'api.producer.Producer'
+}
